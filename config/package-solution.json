@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "hooks-test-client-side-solution",
+    "id": "e976ac83-9e06-4cf2-a30e-cc0a6d450441",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "hooks-test description"
+      },
+      "longDescription": {
+        "default": "hooks-test description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "hooks-test Feature",
+        "description": "The feature that activates elements of the hooks-test solution.",
+        "id": "b09761ac-c715-4852-a4e7-843355a9be04",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/hooks-test.sppkg"
+  }
+}
